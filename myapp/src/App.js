@@ -1,19 +1,14 @@
 import Slider from "./components/Slider/Slider";
-
-import logo from './logo.svg';
-import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Sectors from "./components/Sectors/Sectors";
 
 
 function App() {
   return (
     <div className="App">
-
+    <Navbar/>
     <Slider/>
-
-
-<Navbar/>
-
+    <Sectors/>
     </div>
   );
 }

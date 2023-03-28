@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+.SectorSection{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.Head{
+    font-size: 25px;
+    padding-bottom:1.2em  ;
+    line-height: 2.5em;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+.SectorGroup{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin:0 auto
+}
+.s1{
+    border-radius: 0.6em;
+    width: 21%;
+    background-color: #c8c8c8;
+    padding-bottom: 6em;
+    z-index: 0;
+    position: relative;
+ 
+}
+.s2{
+    border-radius: 0.6em;
+    width: 21%;
+    background-color: #c8c8c8;
+    padding-bottom: 20em;
+    position: relative;
+}
+.s3{
+    border-radius: 0.6em;
+    width: 21%;
+    background-color: #c8c8c8;
+    padding-bottom: 20em;
+    position: relative;
+}
+.s4{
+    border-radius: 0.6em;
+    width: 21%;
+    background-color: #c8c8c8;
+    padding-bottom: 20em;
+    position: relative;
+}
+.SectorHead1{
+    top:13em;
+    position: absolute;
+    font-family: 'roboto';
+    font-size: 20px;
+    width: 60%;
+    text-align: left;
+    padding-left: 1em;
+    transition: all 0.3 ease-in;
+}
+.SectorHead2{
+    top:13em;
+    position: absolute;
+    font-family: 'roboto';
+    font-size: 20px;
+    width: 60%;
+    text-align: left;
+    padding-left: 1em;
+}
+.SectorHead3{
+    top:13em;
+    position: absolute;
+    font-family: 'roboto';
+    font-size: 20px;
+    width: 60%;
+    text-align: left;
+    padding-left: 1em;
+}
+.SectorHead4{
+    top:13em;
+    position: absolute;
+    font-family: 'roboto';
+    font-size: 20px;
+    width: 60%;
+    text-align: left;
+    padding-left: 1em;
+    
+}
+.s1:hover{
+    background: rgb(200,200,200);
+    background: linear-gradient(180deg, rgba(200,200,200,1) 39%, rgba(255,89,133,1) 100%);
+    transition: opacity .4s cubic-bezier(0.4, 0.75, 0.1, 1),transform .65s cubic-bezier(.05,.2,.1,1);
+}
+.s2:hover{
+    background: rgb(200,200,200);
+    background: linear-gradient(180deg, rgba(200,200,200,1) 39%, rgba(255,89,133,1) 100%);
+    transition: opacity .4s cubic-bezier(0.4, 0.75, 0.1, 1),transform .65s cubic-bezier(.05,.2,.1,1);
+}
+.s3:hover{
+    background: rgb(200,200,200);
+    background: linear-gradient(180deg, rgba(200,200,200,1) 39%, rgba(255,89,133,1) 100%);
+    transition: opacity .4s cubic-bezier(0.4, 0.75, 0.1, 1),transform .65s cubic-bezier(.05,.2,.1,1);
+}
+.s4:hover{
+    background: rgb(200,200,200);
+    background: linear-gradient(180deg, rgba(200,200,200,1) 39%, rgba(255,89,133,1) 100%);
+    transition: opacity .4s cubic-bezier(0.4, 0.75, 0.1, 1),transform .65s cubic-bezier(.05,.2,.1,1);
+}
+@media screen and (max-width: 600px) {
+    .SectorGroup{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Head{
+        padding-bottom: 0;
+    }
+    .s1{
+        border-radius: 0.6em;
+        width: 80%;
+        background-color: gray;
+        padding-bottom: 25em;
+        margin-top: 3em;
+        margin-left: 2.3em;
+        
+    }
+    .s2{
+        border-radius: 0.6em;
+        width: 80%;
+        background-color: gray;
+        padding-bottom: 25em;
+        margin-top: 3em;
+        margin-left: 2.3em;
+    }
+    .s3{
+        border-radius: 0.6em;
+        width: 80%;
+        background-color: gray;
+        padding-bottom: 25em;
+        margin-top: 3em;
+        margin-left: 2.3em;
+    }
+    .s4{
+        border-radius: 0.6em;
+        width: 80%;
+        background-color: gray;
+        padding-bottom: 25em;
+        margin-top: 3em;
+        margin-left: 2.3em;
+
+    }
+
+  }
