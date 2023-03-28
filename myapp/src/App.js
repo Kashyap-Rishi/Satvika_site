@@ -1,7 +1,8 @@
 
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Carousel from './components/Carousel/Carousel';
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
     <div className="App">
 
 <Navbar/>
+
+
 
     </div>
   );

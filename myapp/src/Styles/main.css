@@ -15,6 +15,7 @@
 }
 
 header {
+    z-index:999;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -85,6 +86,8 @@ nav {
     margin-left:16rem;
 }
 
+
+
 .nav-search{
     position:inherit;
     margin-left:17rem;
@@ -111,6 +114,7 @@ nav {
 
 	header .responsive_nav {
 		transform: translateY(100vh);
+        z-index:1;
 	}
 
 	nav .nav-close-btn {

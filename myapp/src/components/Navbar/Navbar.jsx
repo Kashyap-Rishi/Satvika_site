@@ -2,6 +2,8 @@ import { useRef } from "react";
 import { BsThreeDotsVertical, BsSearch } from "react-icons/bs";
 import {  FaTimes } from "react-icons/fa";
 import "../../Styles/main.css";
+import Carousel from '../Carousel/Carousel';
+
 
 function Navbar() {
 	const navRef = useRef();
@@ -13,6 +15,7 @@ function Navbar() {
 	};
 
 	return (
+        <>
 		<header>
 			<h3>SATVIKA</h3>
 			<nav ref={navRef}>
@@ -48,6 +51,10 @@ function Navbar() {
 				<BsThreeDotsVertical />
 			</button>
 		</header>
+        <div className="hide-carousel">
+        <Carousel/>
+        </div>
+        </>
 	);
 }
 
