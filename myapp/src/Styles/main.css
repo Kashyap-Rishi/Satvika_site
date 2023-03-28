@@ -9,7 +9,8 @@
     box-sizing: border-box;
     font-family: 'roboto';
     font-weight: bold;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.05rem;
 }
 
 

@@ -1,0 +1,15 @@
+.maincomponent{
+    background: linear-gradient(to bottom, rgb(7, 70, 179) 15.9%, rgb(91, 116, 216) 96.7%);
+    height:100vh;
+    margin:5rem auto 0;
+    width:90%;
+    border-radius: 2rem;
+    text-align: center;
+    align-items: center;
+    
+}
+h1{
+    color:white;
+    padding-top:2rem;
+    font-size: 2.5rem;
+}
