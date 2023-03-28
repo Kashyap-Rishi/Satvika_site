@@ -4,20 +4,27 @@ import Carousel from 'react-multi-carousel';
 import { bannerData } from '../../constants/data';
 import { styled } from '@mui/material';
 import "react-multi-carousel/lib/styles.css";
+import { CenterFocusStrong } from '@material-ui/icons';
 
 
 const Image=styled('img')(({theme})=>({
+    paddingBottom:'4em',
   position:'relative',
+  objectFit:'cover',
     width:'100%',
     zIndex:-1,
-    height:320,
+    height:600,
     [theme.breakpoints.down('md')]:{
       objectFit:'cover',
-      height:240
+      height:300,
+  width:'100%',
+
     }, 
        [theme.breakpoints.down('sm')]:{
-        objectFit:'cover',
-        height:200
+        background:'contain',
+    
+        height:250,
+        width:'100%',
       }
 }))
 
