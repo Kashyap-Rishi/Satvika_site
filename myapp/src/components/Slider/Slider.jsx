@@ -1,4 +1,4 @@
-import styles from "../../styles/Slider.module.css"
+import styles from "../../Styles/Slider.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons'
 const Slider = () =>{
