@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 
 
 import Sectors from "./components/Sectors/Sectors";
+import Projects from "./components/Projects/Projects";
 
 
 
@@ -16,7 +17,7 @@ function App() {
     <Navbar/>
     <Slider/>
     <Sectors/>
-
+    <Projects/>
     
 
 
