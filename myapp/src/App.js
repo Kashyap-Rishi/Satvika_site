@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 
 import Sectors from "./components/Sectors/Sectors";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 
 
 
@@ -18,7 +19,7 @@ function App() {
     <Slider/>
     <Sectors/>
     <Projects/>
-    
+    <Footer/>
 
 
 
